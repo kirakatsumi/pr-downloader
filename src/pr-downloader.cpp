@@ -49,6 +49,8 @@ DownloadEnum::Category getPlatformEngineCat()
 			return DownloadEnum::CAT_ENGINE_WINDOWS_ARM64;
 		case Platform::Linux_arm64:
 			return DownloadEnum::CAT_ENGINE_LINUX_ARM64;
+		case Platform::MacOS_x64:
+			return DownloadEnum::CAT_ENGINE_MACOSX;
 		case Platform::MacOS_arm64:
 			return DownloadEnum::CAT_ENGINE_MACOSX_ARM64;
 		default:
